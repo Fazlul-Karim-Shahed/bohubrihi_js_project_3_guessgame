@@ -32,13 +32,13 @@ function guess(){
         }
         else if(myValue>correct_ans){
             
-            window.alert(`Correct answer is smaller ${correct_ans}`)
+            window.alert(`Correct answer is smaller`)
             count++;
 
         }
         else if(myValue<correct_ans){
 
-            window.alert(`Correct answer is greater ${correct_ans}`)
+            window.alert(`Correct answer is greater`)
             count++
         }
 
@@ -51,8 +51,6 @@ function guess(){
 
     // If the answer is right: 
     if(count == 0){
-
-        document.getElementById("demo").style.visibility = "visible"
 
         document.getElementById("demo").style.backgroundColor = "green";
         document.getElementById("demo").innerHTML = `You win!! <br>`
@@ -74,7 +72,6 @@ function guess(){
     // If the answer is wrong :
     else {
 
-        document.getElementById("demo").style.visibility = "visible"
 
         document.getElementById("demo").style.backgroundColor = "red";
         
