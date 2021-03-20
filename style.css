@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+html body{
+    height: 100%;
+}
+
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    
+
+}
+
+h1{
+    font-family: 'Syne Mono', monospace;
+    color: crimson;
+}
+h2{
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.content{
+    margin: 100px 20px;
+    text-align: center;
+    background-color: #EEE;
+    padding: 30px 5px;
+    width: 70%;
+    margin: 50px auto;
+    
+}
+
+button{
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+#demo{
+    text-align: center;
+    /* background-color: greenyellow; */
+    padding: 20px;
+    color: white;
+}
+
+.footer{
+
+    position: fixed;
+    padding-top: 30px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1vh;
+   
+}
+
