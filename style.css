@@ -49,11 +49,9 @@ button{
 .footer{
 
     position: fixed;
-    padding-top: 30px;
     bottom: 0;
     text-align: center;
     width: 100%;
-    font-size: 1vh;
    
 }
 
