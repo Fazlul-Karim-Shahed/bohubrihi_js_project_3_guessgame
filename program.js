@@ -143,9 +143,3 @@ function guess() {
 
 
 }
-
-
-
-console.log('Cancel: ', cancel)
-console.log('Invalid: ', invalidInput)
-console.log('Count: ', count)
