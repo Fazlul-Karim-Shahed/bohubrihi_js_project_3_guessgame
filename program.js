@@ -26,11 +26,11 @@ function guess() {
 
         // Taking user input: 
         var myValue = prompt(`Remaining ${3 - i} times. Enter a number: `)
-        console.log(myValue)
+
 
         // Checking the answer: 
         if (isNaN(myValue) === false && myValue != null) {
-            window.alert(typeof (myValue))
+
             if (correct_ans == myValue) {
 
                 count = 0;
@@ -49,18 +49,14 @@ function guess() {
             }
         }
         else if (myValue === null) {
-            window.alert(typeof (myValue))
-            console.log('null val')
             cancel = true
             break
         }
         else if (isNaN(myValue)) {
-            window.alert(typeof (myValue))
             invalidInput = true
             break
         }
         else {
-            window.alert(typeof (myValue))
             window.alert(`You failed. Input must be number`)
             break
         }
